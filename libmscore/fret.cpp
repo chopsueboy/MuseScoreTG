@@ -774,6 +774,7 @@ void FretDiagram::draw(QPainter* painter) const
             }
 
       // Draw fret offset number
+      // TODO feature move offset number
       if (_fretOffset > 0) {
             qreal fretNumMag = score()->styleD(Sid::fretNumMag);
             QFont scaledFont(font);
